@@ -1,19 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import {Button, Flex} from 'antd';
-
-function Home() {
+import './Home.css'
+const Home = () => {
     return (
-        <Flex gap="small" wrap >
-            <Link to="/login" style={{textDecoration: 'none'}}>
-                <Button type="primary">Войти</Button>
-            </Link>
-
-            <Link to="/register" style={{textDecoration: 'none'}}>
-                <Button type="primary">Регистрация</Button>
-            </Link>
-        </Flex>
+        <div className="home-container">
+            <h1>Добро пожаловать на наш сайт!</h1>
+            <h2>Тут стартовая шняга для неавторазованных пользаков</h2>
+        </div>
     );
-}
+};
 
 export default Home;

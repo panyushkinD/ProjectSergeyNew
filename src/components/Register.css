@@ -1,0 +1,73 @@
+.auth-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5; /* Светлый фон */
+}
+
+/* Контейнер для формы регистрации */
+.auth-container {
+    background-color: #fff; /* Белый фон для формы */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для визуального отделения */
+    max-width: 400px; /* Максимальная ширина контейнера */
+    width: 100%;
+}
+
+/* Заголовок формы */
+.auth-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333; /* Темный текст */
+}
+
+/* Стили для формы */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form label {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #666; /* Текст метки */
+}
+
+.auth-form input {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%; /* Ширина на всю доступную ширину контейнера */
+}
+
+.auth-form input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.auth-form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}
+
+.auth-form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745; /* Цвет кнопки для регистрации */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+    background-color: #218838; /* Цвет кнопки при наведении */
+}
